@@ -1,0 +1,111 @@
+
+            /*header part begins and this is for the 3bar navigation*/
+
+.c-bar-navigation {
+    background: url("../../resources/Home Page/HAMBURGER.png");
+    background-size: 27.5px;
+    width: 21.5px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.c-bar-text {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+            /*for search and cart both images*/
+
+.c-search-cart {
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.c-search-icon {
+    background: url("../../resources/Home Page/Updated Header And Chef Categories/FIND ICON 42X42 PX.png");
+    background-size: 24px;
+    width: 24px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    float: left;
+    padding-top: 30px;
+    font-size: 9px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.c-cart-icon {
+    background: url("../../resources/Home Page/Updated Header And Chef Categories/CART 42X42 PX.png");
+    background-size: 24.5px;
+    width: 24.5px;
+    background-repeat: no-repeat;
+    float: left;
+    padding-top: 30px;
+    font-size: 9px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+            /*for chefs logo*/
+
+.c-logo {
+    text-align: center;
+    padding: 10px;
+}
+
+.c-logo-icon {
+    height: 22px;
+    width: 85px;
+}
+
+            /*inner part of the header*/
+
+.c-header-inner {
+    clear: both;
+    height: 42px;
+    padding: 5px;
+    background: #cc0000;
+    line-height: 20px;
+}
+
+.c-free-text {
+    font-face: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #ffffff;
+    text-shadow: 2px 2px #940000;
+}
+
+.c-free-return {
+    font-face: arial;
+    font-weight: bold;
+    size: 12px;
+    color: #ffffff;
+    float: right;
+    margin-right: 10px;
+    text-shadow: 2px 2px #940000;
+}
+
+.c-free-order {
+    font-face: arial;
+    font-weight: regular;
+    size: 12px;
+    color: #ffffff;
+    float: left;
+    clear: both;
+    text-shadow: 2px 2px #940000;
+}
+
+.c-free-shipping {
+    font-face: arial;
+    font-weight: bold;
+    size: 12px;
+    color: #ffffff;
+    float: right;
+    margin-right: 66px;
+    text-shadow: 2px 2px #940000;
+}

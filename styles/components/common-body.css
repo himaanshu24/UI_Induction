@@ -1,0 +1,14 @@
+
+            /*common things that applied on the body*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}

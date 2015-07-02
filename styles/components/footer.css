@@ -1,0 +1,134 @@
+            /*main body part ends and the footer part begins*/
+
+.c-back-to-top {
+    padding-top: 10px;
+    clear: both;
+}
+.c-back-to-top-image {
+    background: url("../../resources/Home Page/ARROW IN CIRCLE.png");
+    background-size: 16px;
+    height: 16px;
+    width: 16px;
+    margin: 10 auto;
+}
+
+.c-back-to-top-text {
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+.c-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.c-bottom-confirm {
+    background: #ebebeb;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.c-shop-confidence {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 11px;
+    color: #000000;
+}
+
+.c-shop-contact {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #195796;
+    padding-top: 10px;
+}
+
+.c-footer-block {
+    background: #f8f8f8;
+    height: 240px;
+}
+
+            /*social links*/
+
+.c-social-links {
+    text-align: center;
+    height: 50px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c-social-facebook {
+    background: url("../../resources/Home Page/FACEBOOK ICON.png");
+    height: 33px;
+    width: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.c-social-twitter {
+    background: url("../../resources/Home Page/TWITTER ICON.png");
+    height: 33px;
+    width: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.c-social-googleplus {
+    background: url("../../resources/Home Page/GOOGLE PLUS ICON.png");
+    height: 33px;
+    width: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.c-social-pinterest {
+    background: url("../../resources/Home Page/PINTEREST ICON.png");
+    height: 33px;
+    width: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+            /*about us*/
+
+.c-contacts-links {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.c-about-us {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.c-contacts-blog {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.c-copyright {
+    margin-top: 40px;
+    font-family: arial;
+    font-weight: regular;
+    font-size: 10px;
+    color: #515155;
+    text-align: center;
+}
