@@ -1,0 +1,60 @@
+﻿#outer {
+    
+    background-color: black;
+
+    border:2px solid black;
+
+}
+
+
+#outer > div {
+
+    background-color: purple;
+
+    border:2px solid black;
+ 
+   padding:20px;
+ 
+   margin:20px;
+
+}
+
+
+#outer > div:nth-of-type(2) {
+
+    background-color: red;
+
+    border:2px solid black;
+ 
+   padding:20px;
+
+    margin:20px;
+
+}
+
+
+#outer > div > div {
+
+    background-color: blue;
+
+    border:2px solid black;
+
+    padding:10px;
+
+    margin:10px;
+
+}
+
+
+#outer > div:first-child > div:first-child {
+
+    background-color: yellow;
+
+    border:2px solid black;
+
+    padding:10px;
+
+    margin:10px;
+
+}
+

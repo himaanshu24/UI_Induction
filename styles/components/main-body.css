@@ -1,0 +1,191 @@
+
+            /*main body starts and the header ends*/
+
+.c-kitchen-tool {
+    clear: both;
+    padding-top: 10px;
+    width: 100%;
+    height: 150px;
+    background: url("../../resources/Home Page/BACHGROUND IMAGE 1.png");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+}
+
+.c-rect {
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.85;
+    background: #ffffff;
+}
+
+.c-buy-now {
+    font-face: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #000000;
+    padding: 10px;
+    float: left;
+}
+
+.c-buy-text {
+    font-face: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #cc0000;
+    padding: 10px;
+    float: right;
+
+}
+
+            /*two buttons part now on sale and the whats new*/
+
+.c-now-on-sale {
+    width: 35px;
+    width: 48.2%;
+    background: #cc0000;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    float: left;
+    line-height: 35px;
+    border-radius: 2.5px;
+    text-shadow: 2px 2px #520000;
+    background: linear-gradient(#9a170a ,#cc0000);
+}
+
+.c-what-new {
+    width: 35px;
+    width: 48.2%;
+    background: #738b02;
+    border-radius: 2.5px;
+    color: white;
+    text-align: center;
+    font-face: arial;
+    font-weight: bold;
+    size: 16px;
+    line-height: 35px;
+    float: right;
+    text-shadow: 2px 2px #2a3505;
+    background: linear-gradient(#5a6c24 ,#738b02);
+}
+
+.c-buttons {
+    padding: 10px;
+}
+
+            /*heading for the top rated customers*/
+
+.c-top-rated-customers {
+    padding-top: 10px;
+    text-align: center;
+    clear: both;
+    font-face: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #171717;
+}
+
+            /*separator*/
+
+.separator {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 2px;
+    background: #dadada;
+}
+
+            /*the part that contains the images and the other information of the object*/
+
+.c-image-block-left {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.c-image-block-right {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+            /*stars for the rating of the objects*/
+
+.c-star{
+  background-image: url("../../resources/Home Page/BlankStar_3.png");
+  width: 61px;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.c-star-inner-4 {
+  background-image: url("../../resources/Home Page/FULL STAR ICON 24 X 24 PX.png");
+  width: 78%;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+.c-star-inner-5 {
+  background-image: url("../../resources/Home Page/FULL STAR ICON 24 X 24 PX.png");
+  width: 100%;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.c-star-inner-half {
+  background-image: url("../../resources/Home Page/FULL STAR ICON 24 X 24 PX.png");
+  width: 89%;
+  height: 14px;
+  background-size: 12px 12px;
+  background-repeat-y: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+            /*classes for the different types of text price sale and the saving*/
+
+.c-sale {
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #ee0101;
+}
+
+.c-save {
+    font-family: arial;
+    font-weight: bold;
+    size: 12px;
+    color: #ee0101;
+}
+
+.c-new {
+    font-family: arial;
+    font-weight: bold;
+    size: 16px;
+    color: #738b02;
+}

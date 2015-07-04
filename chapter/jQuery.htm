@@ -1,0 +1,70 @@
+<html>
+    <head>
+    <title>
+    jQuery functions
+    </title>
+    <style>
+    p {
+        background-color:red;
+        font-size:20px;
+    }
+    #divi {
+        background-color:black;
+        font-size:20px;
+        color:white;
+        height:50px;
+    }
+    #btn1 {
+    background-color:red;
+    }
+
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("input").focus(function(){
+                $(this).css("background-color", "#cccccc");
+        });
+            $("input").blur(function(){
+                   $(this).css("background-color", "white");
+        });
+
+            $("p.demo").click(function(){
+                   $(this).css("background-color", "green");
+            });
+
+            $("p.demo").mouseover(function(){
+                   $(this).css("background-color", "yellow");
+            });
+            
+            $("p.demo1").hover(function(){
+                   $(this).css("background-color", "grey");
+            });
+            $("p.demo1").dblclick(function(){
+                   $(this).css("background-color", "blue");
+            });
+            $("#btn1").on("click", function(){
+                $("#divi").animate({height: "300px"});
+            });
+            $("#demo2").click(function(){
+                   $("#divi").hide();
+            });
+       });
+    </script>
+    </head>
+    <body>
+    <form>
+    <div class="demo">FirstName:</div>
+    <input type="text" placeholder="FirstName">
+    <div class="demo">LastName:</div>
+    <input type="text" placeholder="LastName">
+    </form>
+    <p class="demo">nckns cknkc nknwki nscksn  kcnskck scksnck snkcn ksnckn skcnsk cskncsc csknck nkcnskcn skncksn cknkcns cnsnck sncksnk csnkcns kncksnck snkcsnkcns kncksnc ksnkcnskc
+    </p>
+    <p class = "demo1">cdcdcd edc ecec ece c e cec e  e e  ecc e cece c ec e cdecece c e ce c e ce c es ce  e ce c e ce ce c e c e ce c dfreefre ref re fre f ref re fr ef ref re fre f re free ffre  re
+    </p>
+    <div id="divi"> animation practice</div>
+    <button id="btn1">Animate</button>
+    <button id="demo2">Click Me</button>
+    </body>
+</html>
