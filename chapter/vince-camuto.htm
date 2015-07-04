@@ -12,7 +12,7 @@
                 <div class="c-menu-icon">
                 </div>
 
-                <div class="c-center-header">
+                <div class="c-center-header clearfix">
                     <div class="c-vince-logo">
                         <img class="c-vince-logo-icon" src="../resources/Vince-camuto/logoHeader.png">
                     </div>
@@ -23,7 +23,7 @@
                     <div class="c-down-arrow">
                     </div>
 
-                    <div class="c-bag-icon clear">
+                    <div class="c-bag-icon">
                     </div>
                 </div>
 
@@ -105,10 +105,12 @@
                 </div>
 
                 <div class="c-quantity-total">
-                    <div class="c-product-id-quantity">
-                        <span class="c-quantity-text">1</span>
-                        <span><img class="c-drop-down-arrow" src="../resources/Vince-camuto/stateDropdown.png">
-                    </div>
+                    <select class="c-product-id-quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                     <div class="c-total">USD $139.99
                     </div>
                 </div>
@@ -159,10 +161,12 @@
                 </div>
 
                 <div class="c-quantity-total">
-                    <div class="c-product-id-quantity">
-                        <span class="c-quantity-text">1</span>
-                        <span><img class="c-drop-down-arrow" src="../resources/Vince-camuto/stateDropdown.png">
-                    </div>
+                    <select class="c-product-id-quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                     <div class="c-total">USD $148.99
                     </div>
                 </div>
@@ -213,10 +217,12 @@
                 </div>
 
                 <div class="c-quantity-total">
-                    <div class="c-product-id-quantity">
-                        <span class="c-quantity-text">1</span>
-                        <span><img class="c-drop-down-arrow" src="../resources/Vince-camuto/stateDropdown.png">
-                    </div>
+                    <select class="c-product-id-quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                     <div class="c-total">USD $139.00
                     </div>
                 </div>
@@ -236,7 +242,7 @@
                 <span class="c-subtotal clearfix">
                     Subtotal
                 </span>
-                <div class="c-dotted-border clearfix">
+                <div class="c-dotted-border-above clearfix">
                 </div>
                 <div class="c-subtotal-price">
                     USD $565.99
@@ -275,13 +281,11 @@
             </span>
         </div>
 
-        <div class="c-code">
-            <div class="c-enter-coupon-code">
-                Enter Coupon Code
-            </div>
-            <div class="c-coupon-code-apply">
+        <div class="c-code clearfix">
+            <input type="text" class="c-enter-coupon-code" placeholder="Enter Coupon Code">
+            <button type="button" class="c-coupon-code-apply">
                 APPLY
-            </div>
+            </button>
         </div>
 
         <div class="c-checkout">
@@ -329,11 +333,10 @@
             </div>
 
             <div class="c-code clearfix">
-                <div class="c-enter-coupon-code">
-                </div>
-                <div class="c-join">
+                <input type="text" class="c-enter-coupon-code">
+                <button type="button" class="c-join">
                     JOIN
-                </div>
+                </button>
             </div>
 
 

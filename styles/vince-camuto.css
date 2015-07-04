@@ -27,7 +27,6 @@
   margin-top: 20px;
 }
 
-
 .c-vince-logo {
     margin-top: 13px;
     margin-bottom: 13px;
@@ -72,8 +71,9 @@
     width: 19px;
     margin-top: 15px;
     margin-right: 20px;
-    background-repeat: no-repeat;
     float: right;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .c-inner-header {
@@ -99,6 +99,7 @@
   padding-top: 15px;
   padding-bottom: 8px;
 }
+
 .c-home-text {
   font-size: 10px;
   color: #000000;
@@ -113,7 +114,7 @@
 }
 
 .c-estimation {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .c-your-bag {
@@ -283,12 +284,6 @@
     font-weight: lighter;
 }
 
-.c-drop-down-arrow {
-    width :15px;
-    height: 8px;
-    margin-left: 25px;
-}
-
 .c-total {
     float: right;
     margin-right: 5px;
@@ -319,8 +314,21 @@
     box-sizing: border-box;
 }
 
+.c-dotted-border-above {
+    width: 40%;
+    margin-left: 4px;
+    background: url('../resources/Vince-camuto/bulletpoint.jpg');
+    background-repeat: repeat-x;
+    background-size: 5px;
+    height: 20px;
+    background-position: 50px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-position: 0px 10px ;
+}
+
 .c-dotted-border {
-    width: 50%;
+    width: 48%;
     margin-left: 4px;
     background: url('../resources/Vince-camuto/bulletpoint.jpg');
     background-repeat: repeat-x;
@@ -338,7 +346,7 @@
     color: #000000;
     font-weight: bold;
     margin: 2px;
-    width: 25%;
+    width: 35%;
     box-sizing: border-box;
     text-align: right;
 }
@@ -368,6 +376,7 @@
     margin-left: 10px;
     margin-top: 24px;
     font-size: 18px;
+    margin-bottom: 8px;
     color: #000000;
     font-weight: bold;
     font-family: arial;
@@ -386,33 +395,32 @@
     height: 40px;
     width: 62%;
     border: 1px solid #d9d9d9;
-    margin-top: 18px;
-    margin-bottom: 15px;
+    margin-top: 10px;
     margin-left: 10px;
     padding-left: 10px;
-    padding-top: 26px;
     font-size: 14px;
     color: #000000;
     font-weight: normal;
     font-family: arial;
     float: left;
+    line-height: 40px;
 }
 
 .c-coupon-code-apply {
     height: 40px;
     width: 22%;
     border: 1px solid black;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 15px;
     text-align: center;
-    padding-top: 26px;
+    line-height: 40px;
     font-size: 14px;
     color: #000000;
     font-weight: lighter;
     font-family: arial;
     float: right;
     letter-spacing: 2px;
+    background: white;
 }
 
 .c-continue-shipping {
@@ -477,7 +485,7 @@
 }
 
 .c-news-letter {
-    margin: 3px 11px 11px 11px;
+    margin: 3px 11px 0px 11px;
     font-size: 14px;
     color: #000000;
     font-weight: lighter;
@@ -489,11 +497,10 @@
     width: 22%;
     border: 1px solid black;
     background: black;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
-    padding-left: 10px;
-    padding-top: 26px;
+    line-height: 40px;
     font-size: 14px;
     color: #ffffff;
     font-weight: lighter;
@@ -502,8 +509,6 @@
     text-align: center;
     letter-spacing: 2px;
 }
-
-
 
 .c-social-links {
     clear: both;
