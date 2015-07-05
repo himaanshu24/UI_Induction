@@ -12,8 +12,10 @@
 
 .c-vince-header {
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: inline-block;
+  width: 100%;
 }
 
 .c-menu-icon {
@@ -25,6 +27,10 @@
   float:left;
   margin-left: 20px;
   margin-top: 20px;
+}
+
+.c-center-header {
+    display: inline-block;
 }
 
 .c-vince-logo {
@@ -64,16 +70,34 @@
   margin-bottom: 23px;
 }
 
+.c-right-header {
+    display: inline-block;
+    float: right;
+}
+
 .c-bag-icon {
     background: url("../resources/Vince-camuto/bagIcon.png");
     background-size: 19px;
     height: 24px;
     width: 19px;
     margin-top: 15px;
-    margin-right: 20px;
-    float: right;
-    background-repeat: no-repeat;
+    margin-right: 15px;
+    padding: 17px 0px 10px 5px;
     display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.c-oval {
+  font-size: 11px;
+  font-weight: normal;
+  width: 25px;
+  height: 15px;
+  line-height: 15px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 .c-inner-header {
@@ -197,6 +221,9 @@
     font-size: 14px;
     color: #010101;
     font-weight: lighter;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .c-first-letter {
@@ -204,13 +231,14 @@
 }
 
 .c-name-text {
-    width: 60%;
     display: inline-block;
+    width: 60%;
 }
 
 .c-prices {
     float: right;
-    text-align: center;
+    text-align: right;
+    display: inline-block;
 }
 
 .c-old-price {
@@ -304,6 +332,10 @@
     margin: 16px 10px;
 }
 
+.c-summary-part {
+    display: inline-block;
+    width: 100%;
+}
 .c-subtotal {
     float: left;
     font-size: 14px;
@@ -445,6 +477,7 @@
     font-weight: normal;
     font-family: arial;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .c-service-available {
@@ -490,6 +523,7 @@
     color: #000000;
     font-weight: lighter;
     font-family: arial;
+    letter-spacing: 1px;
 }
 
 .c-join {
