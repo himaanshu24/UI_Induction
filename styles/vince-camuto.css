@@ -304,6 +304,7 @@
     padding: 0px 20px;
     box-sizing: border-box;
     display: inline-block;
+    background: white;
 }
 
 .c-quantity-text {
