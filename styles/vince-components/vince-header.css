@@ -1,0 +1,122 @@
+            /*Header part*/
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear: both;
+}
+
+.c-vince-header {
+  text-align: center;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: inline-block;
+  width: 100%;
+}
+
+.c-menu-icon {
+  background:url('../../resources/Vince-camuto/menuIcon.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  float:left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.c-center-header {
+    display: inline-block;
+}
+
+.c-vince-logo {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    clear: both;
+    vertical-align: text-bottom;
+    display: inline-block;
+}
+
+.c-vince-logo-icon {
+    height: 30px;
+    width: 128px;
+}
+
+.c-vertical-separator {
+  clear: both;
+  width: 2px;
+  height: 20px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #e5e5e5;
+  display: inline-block;
+}
+
+.c-down-arrow {
+  background:url('../../resources/Vince-camuto/dropdownArrow.png');
+  background-repeat: no-repeat;
+  clear: both;
+  background-size: 15px;
+  width: 15px;
+  height: 8px;
+  margin-top: 23px;
+  display: inline-block;
+  margin-bottom: 23px;
+}
+
+.c-right-header {
+    display: inline-block;
+    float: right;
+}
+
+.c-bag-icon {
+    background: url("../../resources/Vince-camuto/bagIcon.png");
+    background-size: 19px;
+    height: 24px;
+    width: 19px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 17px 0px 10px 5px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.c-oval {
+  font-size: 11px;
+  font-weight: normal;
+  width: 25px;
+  height: 15px;
+  line-height: 15px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.c-inner-header {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  background: #dadada;
+}
+
+.c-header-text {
+  font-weight: bold;
+  font-size: 11px;
+  color: #000000;
+}
+
+.c-link {
+  color: black;
+  letter-spacing: 2px;
+}
