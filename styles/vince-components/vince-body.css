@@ -1,5 +1,5 @@
             /*Body Part*/
-            
+
 .c-home-cart {
   padding-left: 10px;
   padding-top: 15px;
@@ -237,6 +237,7 @@
     background-size: 5px;
     height: 20px;
     background-position: 50px 5px;
+    overflow: hidden;
     box-sizing: border-box;
     display: inline-block;
     background-position: 0px 10px ;
@@ -261,7 +262,7 @@
     color: #000000;
     font-weight: bold;
     margin: 2px;
-    width: 35%;
+    /*width: 35%;*/
     box-sizing: border-box;
     text-align: right;
 }
@@ -308,7 +309,7 @@
 
 .c-enter-coupon-code {
     height: 40px;
-    width: 62%;
+    width: 65%;
     border: 1px solid #d9d9d9;
     margin-top: 10px;
     margin-left: 10px;
@@ -323,7 +324,7 @@
 
 .c-coupon-code-apply {
     height: 40px;
-    width: 22%;
+    width: 25%;
     border: 1px solid black;
     margin-top: 10px;
     margin-right: 10px;
