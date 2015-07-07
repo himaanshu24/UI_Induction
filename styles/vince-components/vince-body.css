@@ -215,44 +215,41 @@
     margin: 16px 10px;
 }
 
-.c-summary-part {
+/*.c-summary-part {
     display: inline-block;
     width: 100%;
-}
+}*/
 .c-subtotal {
     float: left;
     font-size: 14px;
     color: #000000;
     font-weight: bold;
-    margin: 2px;
-    position: relative;
     box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-right: 8px;
 }
 
 .c-dotted-border-above {
-    width: 40%;
     margin-left: 4px;
     background: url('../../resources/Vince-camuto/bulletpoint.jpg');
     background-repeat: repeat-x;
     background-size: 5px;
-    height: 20px;
+    height: 15px;
     background-position: 50px 5px;
     overflow: hidden;
     box-sizing: border-box;
-    display: inline-block;
     background-position: 0px 10px ;
 }
 
 .c-dotted-border {
-    width: 48%;
     margin-left: 4px;
     background: url('../../resources/Vince-camuto/bulletpoint.jpg');
     background-repeat: repeat-x;
     background-size: 5px;
-    height: 20px;
+    height: 15px;
+    overflow: hidden;
     background-position: 50px 5px;
     box-sizing: border-box;
-    display: inline-block;
     background-position: 0px 10px ;
 }
 
@@ -261,10 +258,10 @@
     font-size: 14px;
     color: #000000;
     font-weight: bold;
-    margin: 2px;
-    /*width: 35%;*/
+    margin-left: 25px;
     box-sizing: border-box;
     text-align: right;
+    margin-bottom: 5px;
 }
 
 .c-shipping {
@@ -272,9 +269,9 @@
     font-size: 14px;
     color: #000000;
     font-weight: normal;
-    margin: 2px;
-    position: relative;
     box-sizing: border-box;
+    margin-right: 8px;
+    margin-bottom: 5px;
 }
 
 .c-shipping-price {
@@ -282,10 +279,10 @@
     font-size: 14px;
     color: #000000;
     font-weight: normal;
-    margin: 2px;
-    width: 25%;
+    margin-left: 25px;
     box-sizing: border-box;
     text-align: right;
+    margin-bottom: 5px;
 }
 
 .c-product-estimated-total-sum {
