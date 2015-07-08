@@ -1,0 +1,91 @@
+
+            /*common things that applied on the page*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: arial;
+}
+
+            /*header part starts and it is the left part of the header*/
+
+.c-vineyard-header {
+    text-align: center;
+}
+
+.c-vineyard-header_left {
+    float: left;
+}
+
+.c-menu-icon {
+    background-image: url("../../resources/Vineyard/menuIcon.png");
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    display :inline-block;
+    margin: 17px 10px 16px 15px;
+}
+
+.c-menu-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: #676767;
+    vertical-align: top;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    display :inline-block;
+}
+
+            /*for search and cart both images*/
+
+.c-vineyard-header_right {
+    float: right;
+    margin-right: 15px;
+}
+
+
+.c-search-icon {
+    background: url("../../resources/Vineyard/searchIcon");
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 17px 30px 16px 0px;
+
+}
+
+.c-cart-icon {
+    background: url("../../resources/Vineyard/bagIcon.png");
+    background-size: 16px;
+    width: 16px;
+    height: 18px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+            /*Center Part of the header*/
+
+.c-vineyard-header_center {
+    text-align: center;
+    margin-top : 12px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.c-logo-icon {
+    height: 33px;
+    width: 105px;
+}

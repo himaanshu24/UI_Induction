@@ -1,0 +1,380 @@
+            /*Body Part of the Vineyard*/
+
+.c-pdp_offer {
+    text-align: center;
+    background-color: #e99caf;
+    padding: 8px;
+}
+
+.c-pdp_offertext {
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+            /*Detail of the product*/
+
+.c-pdp_detailleft {
+    float: left;
+    margin: 20px 15px 15px 15px;
+}
+
+.c-pdp_detailname {
+    font-weight: normal;
+    font-size: 16px;
+    color: #03254c;
+    line-height: 20px;
+}
+
+.c-pdp_detailfit {
+    font-weight: normal;
+    font-size: 14px;
+    color: #676767;
+    line-height: 20px;
+}
+
+.c-pdp_detailcode {
+    font-style: italic;
+    font-size: 11px;
+    color: #676767;
+    line-height: 20px;
+}
+
+            /*Price of the product*/
+
+.c-pdp_detailprice {
+    font-weight: bold;
+    font-size: 16px;
+    color: #676767;
+    float: right;
+    width: 25%;
+    margin: 20px 15px 15px 15px;
+    text-align: right;
+    line-height: 20px;
+}
+
+.c-pdp_detailconnect {
+    font-style: italic;
+    font-size: 14px;
+    color: #676767;
+    line-height: 20px;
+}
+
+            /*See More*/
+
+.c-pdp_more {
+    margin-left: 15px;
+}
+
+.c-pdp_moreArrow {
+    display: inline-block;
+}
+
+.c-pdp_moreleftArrow {
+    width: 5px;
+    height: 7px;
+}
+
+.c-pdp_moreText {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 11px;
+    color: #00295e;
+}
+
+            /*Image Part*/
+
+.c-pdp_imagerect {
+    margin-top: 20px;
+    position: relative;
+}
+
+.c-pdp_image {
+    width: 100%;
+    height: auto;
+}
+
+.c-pdp_leftArrow {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 6px;
+    position: absolute;
+    top: 48%;
+    outline: none;
+    opacity: 0.7;
+}
+
+.c-pdp_rightArrow {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 48%;
+    right: 6px;
+    outline: none;
+    opacity: 0.7;
+}
+
+.c-pdp_leftArrowimage {
+    width: 8px;
+    height: 15px;
+}
+
+.c-pdp_imagebutton {
+    width: 55px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    outline: none;
+    margin-left: 50%;
+    left: -27px;
+    opacity: 0.7;
+}
+
+            /*Selecting color*/
+
+.c-pdp_color {
+    margin: 20px 15px;
+}
+
+.c-pdp_color_left {
+    float: left;
+}
+
+.c-pdp_color_right {
+    float: right;
+}
+
+.c-pdp_color-heading {
+    font-weight: bold;
+    font-size: 14px;
+    color: #03254c;
+}
+
+.c-pdp_color-name {
+    font-weight: normal;
+    font-size: 14px;
+    color: #676767;
+}
+
+.c-pdp_color-oldprice {
+    font-weight: bold;
+    font-size: 14px;
+    color: #676767;
+    text-decoration: line-through;
+}
+
+.c-pdp_color-newprice {
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+.c-pdp_color_box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #afafaf;
+    margin-right: 4px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.c-pdp_color_box-inner {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #afafaf;
+    margin: 2px;
+}
+
+
+.c-color-selected {
+    border: 2px solid #ec859d;
+    width: 40px;
+    height: 40px;
+}
+
+.c-selected-inner {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+
+.c-yellow {
+    background-color: yellow;
+}
+
+.c-green {
+    background-color: green;
+}
+
+.c-red {
+    background-color: red;
+}
+
+.c-black {
+    background-color: black;
+}
+
+.c-grey {
+    background-color: grey;
+}
+
+.c-blue {
+    background-color: blue;
+}
+
+            /*Select Size*/
+
+.c-pdp_size {
+    margin: 0px 15px;
+}
+
+.c-pdp_size_box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #afafaf;
+    margin-right: 4px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #676767;
+    float: left;
+}
+
+.c-selected {
+    border: 2px solid #ec859d;
+}
+
+.c-pdp_size_box-inner {
+    width: 30;
+    height: 30px;
+    border: 1px solid #afafaf;
+    background-color: #676767;
+    color: #ffffff;
+    line-height: 30px;
+    margin: 2px;
+}
+
+            /*Select quantity*/
+
+.c-pdp_quantity {
+    margin: 20px 15px 0px 15px;
+    border-bottom: 1px solid #13264c;
+}
+
+.c-quantity_btn {
+    width: 95px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #afafaf;
+    background-color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+    outline: none;
+    box-shadow: inset 1px 1px #d2d2d2,1px 1px #afafaf;
+}
+
+.c-pdp-value {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    -webkit-appearance: none;
+}
+
+.c-down-arrow {
+    width: 10px;
+    height: 6px;
+    margin-left: 5px;
+}
+
+.c-pdp_quantity-low {
+    font-weight: normal;
+    font-size: 14px;
+    color: #676767;
+}
+
+.c-pdp-add {
+    height: 45px;
+    background-color: #e99caf;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.c-add-bag {
+    width: 22px;
+    height: 25px;
+}
+
+.c-btn-text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    vertical-align: super;
+    margin-left: 15px;
+}
+
+            /*pdp description*/
+
+.c-pdp_description {
+    margin: 0px 15px;
+}
+
+.c-pdp-description_name {
+    height: 53px;
+    border-bottom: 1px solid grey;
+    font-weight: normal;
+    font-size: 16px;
+    color: #03254c;
+    line-height: 53px;
+    padding: 0px 5px;
+}
+
+.c-pdp-description_image {
+    width: 16px;
+    height: 16px;
+    float: right;
+    padding-top: 18px;
+}
+
+.c-pdp_message {
+    margin: 34px 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.c-pdp_message-icon {
+    width: 39px;
+    height: 20px;
+}
+
+.c-pdp_back {
+    font-weight: bold;
+    font-size: 12px;
+    color: #03254c;
+    text-align: center;
+    height: 45px;
+    background-color: #e5e9ed;
+    padding-top: 17px;
+    box-sizing: border-box;
+}
+
+.c-pdp_back-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
